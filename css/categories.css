@@ -1,0 +1,31 @@
+.search-categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.categories-card {
+  width: 312px;
+  height: 220px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+.categories-card a {
+  display: block;
+  position: static;
+  margin-top: 24px;
+}
+
+.categories-card a span {
+  width: 280px;
+  height: 32px;
+  margin-top: 24px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: var(--tittles-weight);
+  font-size: 28px;
+  color: var(--text-primary-color);
+}
