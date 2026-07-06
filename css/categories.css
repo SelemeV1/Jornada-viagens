@@ -60,3 +60,9 @@
     margin: 10px 0 20px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .categories-card .card {
+    width: 280px;
+  }
+}
