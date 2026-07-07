@@ -60,15 +60,11 @@
   .img-item {
     height: 452px;
     width: 648px;
-    background: url(../img/tokyo-tablet-desk.jpg) no-repeat;
-    background-size: cover;
   }
 
   .img-item2 {
     height: 452px;
     width: 648px;
-    background: url(../img/osaka-tablet-desk.jpg) no-repeat;
-    background-size: cover;
   }
 
   .item {
@@ -88,5 +84,53 @@
   .item .button {
     margin-top: 24px;
     width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destination-item {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .item {
+    display: flex;
+  }
+  .img-item {
+    width: 388px;
+    height: 452px;
+  }
+  .img-item2 {
+    width: 388px;
+    height: 452px;
+  }
+  .item p {
+    width: 388px;
+    height: auto;
+  }
+
+  .item .p-osaka {
+    width: 388px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .img-item {
+    width: 588px;
+    height: 452px;
+  }
+  .img-item2 {
+    width: 588px;
+    height: 452px;
+  }
+  .item p {
+    width: 588px;
+    height: auto;
+  }
+
+  .item .p-osaka {
+    width: 588px;
+    height: auto;
   }
 }
