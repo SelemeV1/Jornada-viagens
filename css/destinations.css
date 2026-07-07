@@ -29,7 +29,6 @@
 .item p {
   width: 312px;
   height: 224px;
-  margin-bottom: 24px;
   line-height: 32px;
   font-weight: var(--text-weight);
   font-size: 20px;
@@ -37,6 +36,7 @@
 }
 
 .destinations .button {
+  margin-top: 24px;
   width: 312px;
   display: flex;
   justify-content: center;
@@ -54,4 +54,39 @@
   width: 312px;
   background: url(../img/osaka-mobile.jpg) no-repeat;
   background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .img-item {
+    height: 452px;
+    width: 648px;
+    background: url(../img/tokyo-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .img-item2 {
+    height: 452px;
+    width: 648px;
+    background: url(../img/osaka-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .item {
+    align-items: flex-start;
+  }
+
+  .item p {
+    width: 648px;
+    height: 96px;
+  }
+
+  .item .p-osaka {
+    width: 648px;
+    height: 128px;
+  }
+
+  .item .button {
+    margin-top: 24px;
+    width: 280px;
+  }
 }
