@@ -3,5 +3,55 @@
   background-color: transparent;
   position: static;
   padding: 0;
+}
+
+.destination-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 0px 0px 88px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item header h4 {
+  margin: 24px 0;
+  font-weight: var(--tittles-weight);
+  font-size: 28px;
+  color: var(--background-tertiary-color);
+}
+
+.item p {
+  width: 312px;
+  height: 224px;
   margin-bottom: 24px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  color: var(--text-primary-color);
+}
+
+.destinations .button {
+  width: 312px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-item {
+  height: 360px;
+  width: 312px;
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-item2 {
+  height: 360px;
+  width: 312px;
+  background: url(../img/osaka-mobile.jpg) no-repeat;
+  background-size: cover;
 }
