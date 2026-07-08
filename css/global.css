@@ -43,6 +43,10 @@ body {
   color: var(--text-primary-color);
 }
 
+section {
+  margin: 0 auto 88px;
+}
+
 .section-tittle h2 {
   font-size: 28px;
   font-weight: var(--tittles-weight);

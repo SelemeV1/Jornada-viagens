@@ -1,16 +1,8 @@
-.destinations .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-}
-
 .destination-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding: 0px 0px 88px;
 }
 
 .item {
