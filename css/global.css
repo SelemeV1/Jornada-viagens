@@ -44,7 +44,23 @@ body {
 }
 
 section {
+  width: 312px;
   margin: 0 auto 88px;
+}
+
+section.hero {
+  width: 100%;
+}
+
+.content-title {
+  font-weight: var(--tittles-weight);
+  font-size: 28px;
+}
+
+.content-text {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .section-tittle h2 {
@@ -79,10 +95,24 @@ section {
   .section-tittle h2 {
     font-size: 32px;
   }
+
+  section {
+    width: 648px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--primary-color);
+  }
+
+  section {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }

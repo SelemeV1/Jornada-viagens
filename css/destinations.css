@@ -13,17 +13,12 @@
 
 .item header h4 {
   margin: 24px 0;
-  font-weight: var(--tittles-weight);
-  font-size: 28px;
   color: var(--background-tertiary-color);
 }
 
 .item p {
   width: 312px;
   height: 224px;
-  line-height: 32px;
-  font-weight: var(--text-weight);
-  font-size: 20px;
   color: var(--text-primary-color);
 }
 
@@ -89,20 +84,20 @@
     display: flex;
   }
   .img-item {
-    width: 388px;
+    width: 420px;
     height: 452px;
   }
   .img-item2 {
-    width: 388px;
+    width: 420px;
     height: 452px;
   }
   .item p {
-    width: 388px;
+    width: auto;
     height: auto;
   }
 
   .item .p-osaka {
-    width: 388px;
+    width: auto;
     height: auto;
   }
 }
