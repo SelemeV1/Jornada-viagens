@@ -1,5 +1,34 @@
-.hero-footer .hero-footer-img {
-  background: url(../img/pre-footer.png) no-repeat;
+section.hero-footer {
+  width: 100%;
+  margin: 0px;
+}
+
+.hero-footer-img {
+  background: url(../img/pre-footer-mobile.png) no-repeat;
   background-size: cover;
-  width: 360px;
+  width: 100%;
+  height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-footer-img {
+    background: url(../img/pre-footer-tablet.png) no-repeat;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-footer-img {
+    background: url(../img/pre-footerfull.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-footer-img {
+    background: url(../img/pre-footerfull.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
 }
